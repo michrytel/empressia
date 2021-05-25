@@ -1,8 +1,9 @@
+import './index.scss';
 
 function App() {
   return (
-    <div className="App">
-        <p c>Start</p>
+    <div className="App container">
+        <p>Start</p>
     </div>
   );
 }
