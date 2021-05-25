@@ -1,0 +1,32 @@
+.header {
+  padding-bottom: 2em;
+  margin-top: 2em;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  .header__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .navi {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      .navi__logo {
+        max-width: 250px;
+        margin-right: 3em;
+      }
+      .navi__menu {
+        display: flex;
+        gap: 1em;
+        li {
+          a {
+            color: $color-black;
+            text-decoration: none;
+            font-family: $font-primary;
+          }
+        }
+      }
+    }
+  }
+}

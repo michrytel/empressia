@@ -8,7 +8,7 @@ const Header = () => {
             <div className="header__container container">
                 <Navigation/>
                 <div className="navi__button">
-                    <Button text="Zapisz się na wizytę online"/>
+                    <Button text="Zapisz się na wizytę on-line" style="button__primary"/>
                 </div>
             </div>
         </header>
