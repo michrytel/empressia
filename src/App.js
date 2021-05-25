@@ -1,10 +1,9 @@
 import './index.scss';
+import Header from "./components/organisms/Header";
 
 function App() {
   return (
-    <div className="App container">
-        <p>Start</p>
-    </div>
+      <Header/>
   );
 }
 
