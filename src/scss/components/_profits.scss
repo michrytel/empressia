@@ -1,0 +1,28 @@
+.profits {
+  .profits__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-top: 32rem;
+    text-align: center;
+    h1 {
+      font-family: $font-secondary;
+      font-size: 3.5rem;
+      font-weight: 700;
+      max-width: 75%;
+    }
+
+    p {
+      line-height: 1.8;
+      color: grey;
+      max-width: 55%;
+    }
+    img {
+      position: absolute;
+      width: 110%;
+      right: 0.5%;
+    }
+  }
+}
