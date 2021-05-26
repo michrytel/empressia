@@ -1,10 +1,14 @@
 import './index.scss';
 import Header from "./components/organisms/Header";
+import Hero from "./components/organisms/Hero";
 
 function App() {
-  return (
-      <Header/>
-  );
+    return (
+        <>
+            <Header/>
+            <Hero/>
+        </>
+    );
 }
 
 export default App;

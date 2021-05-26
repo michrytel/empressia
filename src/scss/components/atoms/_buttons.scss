@@ -6,4 +6,16 @@
   border-radius: 5px;
   color: $background-color-dark;
   letter-spacing: 1px;
+  font-weight: 600;
+}
+
+.button__secondary {
+  padding: 1rem 1rem;
+  font-family: $font-primary;
+  border: 2px solid $color-extras-primary;
+  background-color: rgb(255,255,255);
+  border-radius: 5px;
+  color: $color-extras-primary;
+  letter-spacing: 1px;
+  font-weight: bold;
 }

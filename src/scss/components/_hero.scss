@@ -1,0 +1,31 @@
+.hero {
+  margin-top: 8rem;
+
+  .hero__container {
+    display: flex;
+    align-items: center;
+    .hero__content {
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+      margin-left: 5rem;
+      h1 {
+        font-family: $font-secondary;
+        font-size: 3.5rem;
+        font-weight: 700;
+      }
+
+      p {
+        line-height: 1.8;
+        color: grey;
+        max-width: 80%;
+      }
+
+      .hero__buttons {
+        display: flex;
+        gap: 1rem;
+      }
+    }
+  }
+  img {}
+}

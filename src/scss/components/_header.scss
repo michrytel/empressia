@@ -4,21 +4,29 @@
   position: fixed;
   width: 100%;
   top: 0;
+
   .header__container {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 1200px;
+
     .navi {
       display: flex;
       justify-content: center;
       align-items: center;
+
       .navi__logo {
         max-width: 250px;
         margin-right: 3em;
       }
+
       .navi__menu {
         display: flex;
-        gap: 1em;
+        gap: 1.5rem;
+        font-size: 0.9rem;
+        font-weight: 600;
+
         li {
           a {
             color: $color-black;
