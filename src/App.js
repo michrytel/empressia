@@ -2,6 +2,7 @@ import './index.scss';
 import Header from "./components/organisms/Header";
 import Hero from "./components/organisms/Hero";
 import Profits from "./components/organisms/Profits";
+import Faq from "./components/organisms/Faq";
 
 function App() {
     return (
@@ -9,6 +10,7 @@ function App() {
             <Header/>
             <Hero/>
             <Profits/>
+            <Faq/>
         </>
     );
 }
