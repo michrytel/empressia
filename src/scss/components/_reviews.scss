@@ -1,11 +1,49 @@
 .reviews {
+
   .reviews__container {
-    margin-top: 10rem;
+    width: 85%;
+    margin-top:10rem;
+    padding-bottom: 10rem;
+    background-color: $background-color-light;
+
+
     h2 {
       text-align: center;
       font-size: 2.5rem;
       font-weight: 500;
       font-family: $font-secondary;
+      margin-bottom: 5rem;
+      padding-top: 5rem;
+    }
+  }
+  .review__container {
+    font-family: $font-secondary;
+    background-color: white;
+    padding: 4em;
+    .review__info{
+      .rating{}
+      .date {}
+    }
+    .review{
+    }
+    .user{
+      display: flex;
+      align-items: center;
+      gap: 1em;
+      .user__image {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        background-color: $color-extras-primary;
+        img {
+          width: 20px;
+        }
+      }
+      .user__name {}
     }
   }
 }
+
