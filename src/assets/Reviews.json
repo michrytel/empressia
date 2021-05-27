@@ -1,0 +1,65 @@
+[
+  {
+    "user": "Maria",
+    "userImage": "../../assets/icons/ui/userimage.png",
+    "review": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci aut commodi, doloribus eveniet facilis fugiat, libero minus natus necessitatibus nemo nihil, nostrum saepe voluptate. Totam.",
+    "stars": 3,
+    "date": "10 lipca 2020"
+  },
+  {
+    "user": "John",
+    "userImage": "../../assets/icons/ui/userimage.png",
+    "review": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci aut commodi, doloribus eveniet facilis fugiat, libero minus natus necessitatibus nemo nihil, nostrum saepe voluptate. Totam.",
+    "stars": 5,
+    "date": "5 lipca 2020"
+  },
+  {
+    "user": "Patrick",
+    "userImage": "../../assets/icons/ui/userimage.png",
+    "review": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci aut commodi, doloribus eveniet facilis fugiat, libero minus natus necessitatibus nemo nihil, nostrum saepe voluptate. Totam.",
+    "stars": 4,
+    "date": "10 czerwca 2020"
+  },
+  {
+    "user": "XYZ",
+    "userImage": "../../assets/icons/ui/userimage.png",
+    "review": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci aut commodi, doloribus eveniet facilis fugiat, libero minus natus necessitatibus nemo nihil, nostrum saepe voluptate. Totam.",
+    "stars": 1,
+    "date": "10 stycznia 2020"
+  },
+  {
+    "user": "Bob",
+    "userImage": "../../assets/icons/ui/userimage.png",
+    "review": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci aut commodi, doloribus eveniet facilis fugiat, libero minus natus necessitatibus nemo nihil, nostrum saepe voluptate. Totam.",
+    "stars": 5,
+    "date": "10 lipca 2020"
+  },
+  {
+    "user": "Kate",
+    "userImage": "../../assets/icons/ui/userimage.png",
+    "review": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci aut commodi, doloribus eveniet facilis fugiat, libero minus natus necessitatibus nemo nihil, nostrum saepe voluptate. Totam.",
+    "stars": 5,
+    "date": "2 lipca 2020"
+  },
+  {
+    "user": "Jim",
+    "userImage": "../../assets/icons/ui/userimage.png",
+    "review": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci aut commodi, doloribus eveniet facilis fugiat, libero minus natus necessitatibus nemo nihil, nostrum saepe voluptate. Totam.",
+    "stars": 5,
+    "date": "1 kwietnia 2020"
+  },
+  {
+    "user": "Jason",
+    "userImage": "../../assets/icons/ui/userimage.png",
+    "review": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci aut commodi, doloribus eveniet facilis fugiat, libero minus natus necessitatibus nemo nihil, nostrum saepe voluptate. Totam.",
+    "stars": 2,
+    "date": "16 maja 2020"
+  },
+  {
+    "user": "Susan",
+    "userImage": "../../assets/icons/ui/userimage.png",
+    "review": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci aut commodi, doloribus eveniet facilis fugiat, libero minus natus necessitatibus nemo nihil, nostrum saepe voluptate. Totam.",
+    "stars": 3,
+    "date": "10 kwietnia 1990"
+  }
+]
