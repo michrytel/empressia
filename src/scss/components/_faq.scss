@@ -43,12 +43,12 @@
         font-weight: 400;
         padding: 2rem;
         border-radius: 4px;
-        transition: all 0.4s ease-out;
+        transition: all 0.2s ease-out;
 
         .accordion__question {
           position: relative;
           max-width: 80%;
-          transition: all 0.4s ease-out;
+          transition: all 0.2s ease-out;
           font-weight: 500;
 
           &::after {
@@ -64,14 +64,14 @@
             background-size: 15px;
             background-repeat: no-repeat;
             filter: brightness(0%) invert(100%);
-            transition: all 0.4s ease-out;
+            transition: all 0.2s ease-out;
           }
         }
         .accordion__answer {
           opacity: 0;
           max-height: 0;
           overflow-y: hidden;
-          transition: all 0.4s ease-out;
+          transition: all 0.2s ease-out;
           line-height: 1.8;
         }
         &.open {

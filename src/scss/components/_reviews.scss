@@ -19,14 +19,29 @@
   .review__container {
     font-family: $font-secondary;
     background-color: white;
-    padding: 4em;
+    padding: 3em;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
     .review__info{
-      .rating{}
-      .date {}
+      display: flex;
+      justify-content: space-between;
+      .rating{
+        display: flex;
+        gap: 0.2em;
+      }
+      .date {
+        color: $color-grey;
+
+      }
     }
     .review{
+      line-height: 1.5;
+      letter-spacing: 1px;
+      font-size: 1.1rem;
     }
     .user{
+      margin-top: 3rem;
       display: flex;
       align-items: center;
       gap: 1em;
@@ -42,7 +57,24 @@
           width: 20px;
         }
       }
-      .user__name {}
+      .user__name {
+        opacity: 0;
+        transition: 0.2s ease-out;
+        font-size: 0.5rem;
+      }
+    }
+    &:hover .user__name {
+      opacity: 1;
+      font-size: 1.1rem;
+    }
+    &:hover .user__image img{
+      opacity: 0;
+    }
+    &:hover .user__image{
+      background-color: white;
+      background-image: url("../../assets/icons/ui/userimage.png");
+      background-size: contain;
+      background-position: center;
     }
   }
 }

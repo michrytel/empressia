@@ -4,7 +4,6 @@ import "swiper/swiper.min.css";
 import "swiper/components/pagination/pagination.min.css"
 import SwiperCore, {Pagination} from 'swiper/core';
 import reviewsData from "../../assets/Reviews.json"
-
 SwiperCore.use([Pagination]);
 
 const ReviewsSlider = () => {

@@ -13,7 +13,6 @@ const Accordion = () => {
             }
             return faq;
         }))}
-
     return (
         <div className="accordion__container">
             {questions.map((faq, i) =>

@@ -4,7 +4,6 @@ import faqImg from "../../assets/mainpage/illustration-faq.png"
 import Accordion from "../molecules/Accordion";
 
 const Faq = () => {
-
     return (
         <section className="faq">
             <div className="faq__container container">
