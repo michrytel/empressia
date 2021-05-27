@@ -4,6 +4,7 @@ import Hero from "./components/organisms/Hero";
 import Profits from "./components/organisms/Profits";
 import Faq from "./components/organisms/Faq";
 import Reviews from "./components/organisms/Reviews";
+import Steps from "./components/organisms/Steps";
 
 function App() {
     return (
@@ -13,6 +14,7 @@ function App() {
             <Profits/>
             <Faq/>
             <Reviews/>
+            <Steps/>
         </>
     );
 }

@@ -1,0 +1,32 @@
+.steps__container {
+  padding: 4em;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 5rem;
+  .step {
+    font-family: $font-secondary;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    flex: 33%;
+    margin-bottom: 5em;
+    img {
+      width: 70px;
+    }
+    h2 {
+      font-size: 1.4rem;
+      font-weight: 500;
+      letter-spacing: 1.5px;
+
+    }
+    p {
+      text-align: center;
+      font-family: $font-primary;
+      color: $color-grey;
+      max-width: 80%;
+      line-height: 1.5;
+    }
+  }
+}

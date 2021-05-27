@@ -3,7 +3,7 @@
   .reviews__container {
     width: 85%;
     margin-top:10rem;
-    padding-bottom: 10rem;
+    padding-bottom: 5rem;
     background-color: $background-color-light;
 
 
@@ -53,6 +53,7 @@
         height: 40px;
         border-radius: 50%;
         background-color: $color-extras-primary;
+        transition: 0.4s ease-out;
         img {
           width: 20px;
         }
