@@ -2,16 +2,18 @@
   margin-top: 32rem;
   .faq__container {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
+    justify-content: space-between;
+
 
     .faq__content {
       position: relative;
-      margin-right: 10em;
       display: flex;
       flex-direction: column;
       gap: 1rem;
       text-align: left;
       h1 {
+        align-self: flex-start;
         font-size: 2.5rem;
         font-weight: 500;
         font-family: $font-secondary;
@@ -28,7 +30,73 @@
         max-width: 30%;
       }
     }
-    .faq__accordion {
+    .accordion__container {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      padding: 1rem;
+      max-width: 50%;
+      .accordion {
+        background-color: $color-extras-primary;
+        color: $background-color-dark;
+        font-family: $font-secondary;
+        font-size: 1.2em;
+        font-weight: 400;
+        padding: 2rem;
+        border-radius: 4px;
+        transition: all 0.4s ease-out;
+
+        .accordion__question {
+          position: relative;
+          max-width: 80%;
+          transition: all 0.4s ease-out;
+          font-weight: 500;
+
+          &::after {
+            content: "";
+            position: absolute;
+            top: 50%;
+            right: -25%;
+            transform: translateY(-50%);
+            width: 30px;
+            height: 30px;
+            background-image: url(../../assets/icons/ui/chevron-down.svg);
+            background-position: center;
+            background-size: 15px;
+            background-repeat: no-repeat;
+            filter: brightness(0%) invert(100%);
+            transition: all 0.4s ease-out;
+          }
+        }
+        .accordion__answer {
+          opacity: 0;
+          max-height: 0;
+          overflow-y: hidden;
+          transition: all 0.4s ease-out;
+          line-height: 1.8;
+        }
+        &.open {
+          background-color: #FFF;
+          padding-left: 2.5rem;
+          box-shadow: 15px 15px 15px 20px $background-color-light;
+
+          .accordion__question {
+            margin-bottom: 15px;
+            color: $color-extras-primary;
+            &::after {
+              transform: translateY(-50%) rotate(180deg);
+              filter: none;
+            }
+          }
+          .accordion__answer {
+            opacity: 1;
+            max-height: 500px;
+            color: $color-grey;
+
+
+          }
+        }
+      }
     }
   }
 }

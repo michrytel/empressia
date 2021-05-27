@@ -1,8 +1,10 @@
 import Headline from "../atoms/Headline";
 import Button from "../atoms/Button";
 import faqImg from "../../assets/mainpage/illustration-faq.png"
-import AccordionSingle from "../atoms/AccordionSingle";
+import Accordion from "../molecules/Accordion";
+
 const Faq = () => {
+
     return (
         <section className="faq">
             <div className="faq__container container">
@@ -11,11 +13,7 @@ const Faq = () => {
                     <Button text="Sprawdż całe FAQ" style="button__secondary"/>
                     <img src={faqImg} alt="FAQ image"/>
                 </div>
-                <div className="faq__accordion">
-                    <AccordionSingle/>
-                    <AccordionSingle/>
-                    <AccordionSingle/>
-                </div>
+                <Accordion/>
             </div>
         </section>
     )

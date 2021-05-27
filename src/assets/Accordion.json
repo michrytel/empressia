@@ -1,0 +1,22 @@
+[
+  {
+    "question": "Jakie sa korzysci teleporady lekarskiej na naszym serwisie?",
+    "answer": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis cupiditate illo laborum libero magnam officiis quisquam repudiandae sed sint voluptate? Explicabo quas voluptatem voluptatibus!",
+    "open": false
+  },
+  {
+    "question": "Jak zrealizuje konsultacje?",
+    "answer": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis cupiditate illo laborum libero magnam officiis quisquam repudiandae sed sint voluptate? Explicabo quas voluptatem voluptatibus!",
+    "open": false
+  },
+  {
+    "question": "Co sie dzieje w przypadku problemow technicznych?",
+    "answer": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis cupiditate illo laborum libero magnam officiis quisquam repudiandae sed sint voluptate? Explicabo quas voluptatem voluptatibus!",
+    "open": false
+  },
+  {
+    "question": "Czy jest mozliwosc odwolania wczesniej zarezerwowanej wizyty?",
+    "answer": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis cupiditate illo laborum libero magnam officiis quisquam repudiandae sed sint voluptate? Explicabo quas voluptatem voluptatibus!",
+    "open": false
+  }
+]
