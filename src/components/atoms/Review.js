@@ -20,7 +20,7 @@ let stars = []
             </div>
             <div className="user">
                 <div className="user__image">
-                    <img src={userImage}/>
+                    <img src={userImage} alt="user"/>
                 </div>
                 <div className="user__name">
                     {data.user}

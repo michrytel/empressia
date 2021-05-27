@@ -10,7 +10,7 @@ const Faq = () => {
                 <div className="faq__content">
                     <Headline title="Najczczesciej zadawane pytania"/>
                     <Button text="Sprawdż całe FAQ" style="button__secondary"/>
-                    <img src={faqImg} alt="FAQ image"/>
+                    <img src={faqImg} alt="FAQ"/>
                 </div>
                 <Accordion/>
             </div>

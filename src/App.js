@@ -5,6 +5,7 @@ import Profits from "./components/organisms/Profits";
 import Faq from "./components/organisms/Faq";
 import Reviews from "./components/organisms/Reviews";
 import Steps from "./components/organisms/Steps";
+import Reservation from "./components/organisms/Reservation";
 
 function App() {
     return (
@@ -15,6 +16,7 @@ function App() {
             <Faq/>
             <Reviews/>
             <Steps/>
+            <Reservation/>
         </>
     );
 }
