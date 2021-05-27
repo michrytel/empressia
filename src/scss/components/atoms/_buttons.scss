@@ -7,6 +7,11 @@
   color: $background-color-dark;
   letter-spacing: 1px;
   font-weight: 600;
+  cursor: pointer;
+  transition: 0.2s;
+  &:active {
+    background-color: darken($color-extras-primary, 20%);
+  }
 }
 
 .button__secondary {
@@ -18,4 +23,10 @@
   color: $color-extras-primary;
   letter-spacing: 1px;
   font-weight: bold;
+  cursor: pointer;
+  transition: 0.2s;
+  &:active {
+    background-color: darken(rgb(255,255,255), 20%);
+  }
+
 }

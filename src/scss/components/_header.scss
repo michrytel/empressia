@@ -1,9 +1,11 @@
 .header {
-  padding-bottom: 2em;
-  margin-top: 2em;
+  padding-bottom: 1em;
+  padding-top: 1em;
   position: fixed;
   width: 100%;
   top: 0;
+  background-color: white;
+  z-index: 1;
 
   .header__container {
     display: flex;
