@@ -8,7 +8,7 @@ SwiperCore.use([Pagination]);
 
 const ReviewsSlider = () => {
     return (
-        <Swiper slidesPerView={3.2} centeredSlides={false} spaceBetween={30} grabCursor={true} pagination={{
+        <Swiper slidesPerView={3.2} centeredSlides={true} spaceBetween={30} grabCursor={true} loop={true} pagination={{
             "clickable": true,
             el: '.swiper-pagination',
         }} className="mySwiper">

@@ -12,7 +12,6 @@
 
       h2{
         font-size: 3rem;
-        max-width: 50%;
         margin-bottom: 1.5em;
         font-weight: bold;
       }
@@ -20,13 +19,15 @@
         font-size: 1rem;
         border-radius: 11px;
       }
+
+      margin-right: 9em;
     }
     .reservation__slider {
       display: flex;
       flex-direction: column;
       justify-content: center;
       gap: 0.8rem;
-      margin-right: 7em;
+      margin-right: 10em;
       height: 270px;
       .slide {
         display: flex;
@@ -36,6 +37,7 @@
         letter-spacing: 1px;
         font-weight: 200;
         transition: 0.2s ease;
+        width: 100%;
 
         .checkmark {
           display: flex;
@@ -54,11 +56,15 @@
         p {
         }
       }
+      .swiper-wrapper {
+        width: 400px;
+      }
       .swiper-slide {
         opacity: .25;
       }
       .swiper-slide-active {
         opacity: .75;
+        transform: scale(1.1) translateX(18px);
       }
     }
   }
