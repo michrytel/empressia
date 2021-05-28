@@ -7,7 +7,6 @@ import SwiperCore, {
 } from 'swiper/core';
 SwiperCore.use([Autoplay,Pagination,Navigation]);
 const list = ["konsultacja bez zakadania konta", "pelna dyskrecja", "kontakt przez Skype lub WhatsApp", "rezerwacja terminu on-line", "szybkosc i prostota", "video konsultacja", "e-recepta i e-zwolnienie"]
-
 const ReservationSlider = () => {
     return (
         <div className="reservation__slider">

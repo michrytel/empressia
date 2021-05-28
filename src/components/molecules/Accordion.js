@@ -1,7 +1,6 @@
 import AccordionData from "../../assets/Accordion.json";
 import AccordionSingle from "../atoms/AccordionSingle";
 import {useState} from "react";
-
 const Accordion = () => {
     const [questions, setQuestions] = useState(AccordionData)
     const toggle = index => {
