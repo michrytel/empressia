@@ -1,7 +1,6 @@
 import Navbar from "../atoms/Navbar";
 import HelpTicker from "../atoms/HelpTicker";
 import BlogTicker from "../atoms/BlogTicker";
-
 const FooterContent = () => {
     return (
         <div className="footer__content">

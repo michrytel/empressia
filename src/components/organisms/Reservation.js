@@ -1,7 +1,6 @@
 import Headline from "../atoms/Headline";
 import Button from "../atoms/Button";
 import ReservationSlider from "../molecules/ReservationSlider";
-
 const Reservation = () => {
     return (
         <section className="reservation">

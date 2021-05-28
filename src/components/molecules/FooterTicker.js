@@ -3,7 +3,6 @@ import stars from "../../assets/icons/ui/star-full-5.svg";
 import doctor from "../../assets/logos/logo_znanylekarzColor.png";
 import facebook from "../../assets/icons/social/facebook.svg";
 import instagram from "../../assets/icons/social/instagram.svg";
-
 const FooterTicker = () => {
     return (
         <div className="footer__ticker">

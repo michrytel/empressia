@@ -1,6 +1,5 @@
 import imageHero from "../../assets/mainpage/illustration-hero.png"
 import HeroContent from "../molecules/HeroContent";
-
 const Hero = () => {
     return (
         <section className="hero">

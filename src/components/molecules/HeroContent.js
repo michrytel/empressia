@@ -1,6 +1,5 @@
 import Headline from "../atoms/Headline";
 import Button from "../atoms/Button";
-
 const HeroContent = () => {
     return (
         <div className="hero__content">

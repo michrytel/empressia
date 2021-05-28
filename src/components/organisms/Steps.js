@@ -5,7 +5,6 @@ import receipt from "../../assets/icons/seo/e-receipt.svg"
 import quickness from "../../assets/icons/seo/quickness.svg"
 import reservation from "../../assets/icons/seo/reservation.svg"
 import video from "../../assets/icons/seo/video.svg"
-
 const Steps = () => {
     return (
         <section className="steps">

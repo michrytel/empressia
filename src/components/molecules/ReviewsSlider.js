@@ -5,7 +5,6 @@ import "swiper/components/pagination/pagination.min.css"
 import SwiperCore, {Pagination} from 'swiper/core';
 import reviewsData from "../../assets/Reviews.json"
 SwiperCore.use([Pagination]);
-
 const ReviewsSlider = () => {
     return (
         <Swiper slidesPerView={3.2} centeredSlides={true} spaceBetween={30} grabCursor={true} loop={true} pagination={{

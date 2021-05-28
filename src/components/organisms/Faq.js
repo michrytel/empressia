@@ -2,7 +2,6 @@ import Headline from "../atoms/Headline";
 import Button from "../atoms/Button";
 import faqImg from "../../assets/mainpage/illustration-faq.png"
 import Accordion from "../molecules/Accordion";
-
 const Faq = () => {
     return (
         <section className="faq">

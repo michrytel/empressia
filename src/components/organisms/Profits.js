@@ -1,6 +1,5 @@
 import Headline from "../atoms/Headline";
 import profitsBackground from "../../assets/mainpage/section-profit--background.svg"
-
 const Profits = () => {
     return (
         <section className="profits">

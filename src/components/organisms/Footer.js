@@ -1,6 +1,5 @@
 import FooterTicker from "../molecules/FooterTicker";
 import FooterContent from "../molecules/FooterContent";
-
 const Footer = () => {
     return (
         <footer className="footer">
