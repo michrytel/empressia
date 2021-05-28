@@ -10,12 +10,11 @@ const FooterTicker = () => {
             <div className="doctor">
                 <img src={stars} alt="starts-rating" className="stars"/>
                 <p>5.0 (163 opinie) na </p>
-                <img src={doctor} alt="znanylekarz" className="doctor__logo"/>
+                <a href="https://www.znanylekarz.pl"><img src={doctor} alt="znanylekarz" className="doctor__logo"/></a>
             </div>
             <div className="social">
-                <img src={facebook} alt="facebook"/>
-                <img src={instagram} alt="instagram"/>
-
+                <a href="https://www.facebook.com"><img src={facebook} alt="facebook"/></a>
+                <a href="https://www.instagram.com"><img src={instagram} alt="instagram"/></a>
             </div>
         </div>
     )
