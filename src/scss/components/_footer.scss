@@ -1,0 +1,61 @@
+.footer {
+  .footer__container {
+    display: flex;
+    flex-direction: column;
+    padding: 2em 8em 7em 8em ;
+    background-color: $background-color-light;
+    width: 80%;
+    margin-top: 4em;
+    .footer__ticker {
+      padding-bottom: 3em;
+      display: flex;
+      justify-content: space-between;
+      border-bottom: 0.5px solid #e0e0e0;
+      img {
+        width: 55px;
+      }
+      .doctor {
+        margin-left: 28em;
+        display: flex;
+        align-items: center;
+        gap: 1em;
+        .stars {
+          width: 110px;
+        }
+        p {
+          font-family: $font-secondary;
+        }
+        .doctor__logo {
+          height: 25px;
+          width: 120px;
+        }
+      }
+      .social {
+        display: flex;
+        align-items: center;
+        gap: 1em;
+        img {
+          width: 35px;
+        }
+      }
+    }
+    .footer__content {
+      .navi {
+        p {}
+        .navi__menu {
+          li {
+            a {}
+          }
+        }
+      }
+      .blog__ticker {
+        h2 {}
+        ul {
+          li {
+            a {}
+          }
+        }
+      }
+    }
+  }
+}

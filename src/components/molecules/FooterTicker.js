@@ -11,7 +11,7 @@ const FooterTicker = () => {
             <div className="doctor">
                 <img src={stars} alt="starts-rating" className="stars"/>
                 <p>5.0 (163 opinie) na </p>
-                <img src={doctor} alt="znanylekarz" className="doctor"/>
+                <img src={doctor} alt="znanylekarz" className="doctor__logo"/>
             </div>
             <div className="social">
                 <img src={facebook} alt="facebook"/>
